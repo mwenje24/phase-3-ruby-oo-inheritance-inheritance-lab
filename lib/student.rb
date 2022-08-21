@@ -9,4 +9,8 @@ class Student < User
     def learn(knowledge)
       @knowledge << knowledge
     end
+
+    def self.knowledge
+        @knowledge
+    end
 end
